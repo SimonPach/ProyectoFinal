@@ -1,0 +1,12 @@
+footer {
+    background-color: aqua;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer li {
+    list-style: none;
+}
+
