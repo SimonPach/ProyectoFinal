@@ -10,3 +10,6 @@ footer li {
     list-style: none;
 }
 
+section img {
+    height: 25em;
+}
