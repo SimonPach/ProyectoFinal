@@ -1,0 +1,23 @@
+// Section pagina Inicio
+
+#section_inicio {
+
+    margin-top: 6em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5em;
+
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    details {
+        font-size: 0.85em;
+    }
+}

@@ -1,0 +1,81 @@
+article {
+    
+    // banner Inicio
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2.1rem;
+        height: 90vh;
+        color: white;
+
+        background-image: url("../../assets/imgs/banner_inicio.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 0 1em 0;
+
+        h1 {
+            margin-top: 4em;
+            
+        }
+        
+        h2 {
+            margin-bottom: 3em;
+        }
+    }
+
+    
+
+
+}
+
+// Pagina Banner Proyectos
+.banner_proyectos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.1rem;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+
+    background-image: url("../../assets/imgs/banner_proyecto.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+
+    
+}
+
+.banner_sobre_mi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.1rem;
+    height: 90vh;
+    color: rgba(0, 0, 0, 0.951);
+
+    background-image: url("../../assets/imgs/banner_sobre_mi.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+
+    }
