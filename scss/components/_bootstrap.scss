@@ -1,0 +1,13 @@
+.container {
+    img {
+        height: 26vh;
+        width: auto;
+
+        object-fit: cover;
+        transition: 0.5s;
+        
+        &:hover {
+            transform: scale(1.9);
+        }
+    }
+}

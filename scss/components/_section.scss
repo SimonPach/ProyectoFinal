@@ -21,3 +21,76 @@
         font-size: 0.85em;
     }
 }
+
+
+// Pagina Acerca de 
+section {
+
+    h3 {
+        text-align: center;
+        margin: 2em;
+        font-size: 2em;
+    }
+
+
+    .sobre_mi {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 16px;
+
+        
+
+
+
+        img {
+            width: 100%;
+            border-radius: 5%;
+        }
+    }
+}
+
+// Pagina Proyectos 
+
+#proyectos {
+
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(310px, 1fr)
+    );
+    gap: 5em 50px; 
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+        object-fit: cover;
+        transition: 0.5s;
+        
+        &:hover {
+            transform: scale(1.5);
+        }
+    }  
+    
+}
+
+#parrafo_proyectos {
+
+        text-align: center;
+        margin: 4em 0;
+        font-size: 1.1em;
+        font-weight: bolder;
+        background: linear-gradient(356deg, rgba(9,36,233,1) 0%, rgba(115,6,92,1) 27%, rgba(255,0,0,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        li {
+            list-style: none;
+        }
+}
+    
