@@ -1,14 +1,11 @@
-        // banner Inicio //
+@import "../base/maps";
+@import "../base/extends";
+     
+     // banner Inicio //
     .banner {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        font-weight: bolder;
-        font-size: 2.1rem;
-        height: 90vh;
+        @extend %estilosHeader;
         color: white;
+        font-size: map-get($titulos-principales,tamanio);
 
         background-image: url("../../assets/imgs/banner_inicio.png");
         background-repeat: no-repeat;
@@ -16,7 +13,6 @@
         background-size: cover;
         align-items: center;
         justify-content: center;
-        // margin: 1em 0;
 
         h1 {
             margin-top: 4em;
@@ -49,15 +45,11 @@
 
                     // Pagina Banner Proyectos//
 .banner_proyectos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2.1rem;
-    height: 90vh;
+    @extend %estilosHeader;
     color: rgb(255, 255, 255);
+    font-size: map-get($titulos-principales,tamanio);
+    margin-bottom: 50px;
+
 
     background-image: url("../../assets/imgs/banner_proyecto.jpg");
     background-repeat: no-repeat;
@@ -65,22 +57,17 @@
     background-size: cover;
     align-items: center;
     justify-content: center;
-    // margin: 1em 0 3em 0;
+    object-fit: cover;
+
 
     
 }
 
                     // Pagina Banner Acerca de //
 .banner_sobre_mi {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2.1rem;
-    height: 90vh;
+    @extend %estilosHeader;
     color: rgba(0, 0, 0, 0.951);
+    font-size: map-get($titulos-principales,tamanio);
 
     background-image: url("../../assets/imgs/banner_sobre_mi.jpg");
     background-repeat: no-repeat;
@@ -88,7 +75,7 @@
     background-size: cover;
     align-items: center;
     justify-content: center;
-    // margin: 1em 0 3em 0;
+
 
 }
 
@@ -96,16 +83,11 @@
                         // Pagina Contactos //
 
 #banner_contacto {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: center;
-        font-weight: bolder;
-        font-size: 2.1rem;
-        height: 70vh;
+        @extend %estilosHeader2;
         color: rgb(0, 0, 0);
         font-style: italic;
+        font-size: map-get($titulos-principales,tamanio);
+        margin-bottom: 50px;
 
         background-image: url("../../assets/imgs/banner_contacto.jpg");
         background-repeat: no-repeat;
@@ -113,22 +95,16 @@
         background-size: cover;
         align-items: center;
         justify-content: center;
-        // margin: 1em 0; 
+ 
 }
 
                      // Pagina Agradecimientos //
 #banner_agradecimientos {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2.8rem;
-    height: 70vh;
+    @extend %estilosHeader2;
     color: rgb(0, 0, 0);
     font-style: italic;
+    font-size: map-get($titulo-principal-agradecimientos,tamanio);
 
     background-image: url("../../assets/imgs/agradecimientos.jpg");
     background-repeat: no-repeat;
@@ -136,8 +112,8 @@
     background-size: cover;
     align-items: center;
     justify-content: center;
-    // margin: 1em 0;
     object-fit: cover;
+    margin-bottom: 50px;
 
 
     h1 {
