@@ -1,7 +1,12 @@
 @import "components/header";
 @import "components/article";
+@import "components/bootstrap";
 @import "components/section";
 @import "components/footer";
+@import "base/mediaQuery";
 
-// carrucel
-@import "components/carrucel";
+// Estilos generales 
+// 
+#cuerpo{
+margin: 0;
+}

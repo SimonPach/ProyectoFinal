@@ -28,7 +28,7 @@
     <meta name="msapplication-TileImage" content="../imgs/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body>
+<body id="cuerpo">
     <!--  Inicio Navegador -->
     <header>
         <nav>
@@ -46,11 +46,23 @@
     <!--  Fin navegador -->
 
     <!-- Banner -->
-    <article>
+    <article id="banner_contacto">
         <h1>Contactame</h1>
     </article>
     <!-- Fin Banner -->
-
+    <!-- Inicio Secction Contacto -->
+    <section class="form-register">
+        <form action="mailto:correoelectronico@gmail.com" method="post">
+            <h4>Escríbeme</h4>
+            <input type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
+            <input type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+            <input type="text" name="asunto" id="asunto" placeholder="Ingrese el Asunto" required>
+            <textarea name="mensaje" cols="30" rows="6" placeholder="Ingrese aquí su mensaje..."></textarea>
+            <p>Me pondré en contacto lo antes posible</p>
+            <button class="boton">Enviar</button>
+        </form>
+    </section>       
     <!-- Inicio Footer -->
     <footer>
         <div>

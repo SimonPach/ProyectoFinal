@@ -2,12 +2,13 @@
     img {
         height: 26vh;
         width: auto;
-
         object-fit: cover;
         transition: 0.5s;
+        margin-top: 6em;
         
         &:hover {
             transform: scale(1.9);
+            filter: drop-shadow(17px 24px 45px rgba(2, 78, 255, 0.973));
         }
     }
 }

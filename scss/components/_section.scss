@@ -23,33 +23,69 @@
 }
 
 
-// Pagina Acerca de 
+                    // Pagina ACERCA DE //
 section {
 
     h3 {
         text-align: center;
         margin: 2em;
         font-size: 2em;
+        text-decoration: underline;
     }
 
 
     .sobre_mi {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 16px;
-
         
-
-
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
 
         img {
             width: 100%;
-            border-radius: 5%;
+            border-radius: 55%;
+            max-width: 65vh;
+            object-fit: cover;
+        }
+
+        p {
+            width: 50%;
+            font-size: 1.5em;
+            text-align: center;
+            font-style: italic;
+            font-weight: 500;
         }
     }
+
+    .sobre_mi2 {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10em 0;
+
+        img {
+
+            max-width: 65vh;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 0%;
+        }
+
+        p {
+            width: 50%;
+            text-align: center;
+            font-size: 1.2em;
+            font-style: italic;
+            font-weight: bolder;
+        }
+    }
+
+    
 }
 
-// Pagina Proyectos 
+                // Pagina Proyectos //
 
 #proyectos {
 
@@ -71,8 +107,10 @@ section {
         object-fit: cover;
         transition: 0.5s;
         
+        
         &:hover {
             transform: scale(1.5);
+            filter: drop-shadow(20px 25px 105px #d350ae);
         }
     }  
     
@@ -93,4 +131,133 @@ section {
             list-style: none;
         }
 }
+
+                // Pagina Contacto // 
+
+.form-register {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        background: #24303c;
+        margin-bottom: 4em;
+        border-radius: 4px;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+
+        input {
+        width: 50%;
+        background: #000000;
+        padding: 10px;
+        border-radius: 5%;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: center;
     
+    }
+
+    h4 {
+
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+
+        p {
+
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;
+        }
+
+        textarea {
+            width: 50%;
+        background: #000000;
+        padding: 10px;
+        border-radius: 5%;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        resize: none;
+        }
+
+
+
+
+        .boton {
+            border: 1px solid white;
+            color: #24303c;
+            letter-spacing: 10px;
+            transition: all 0.5s;
+            padding: 10px 20px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            
+
+
+            &:hover {
+                background-color: #1080ca;
+            }
+        }
+}
+
+            //  Pagina Agradecimientos //
+.cuerpo {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08090B;
+
+}
+
+.heart {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #ff3838;
+    transform: rotate(45deg);
+    animation: heartbeat 1.4s linear infinite;
+
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ff3838;
+        transform: translateY(-50%);
+        border-radius: 50%;
+    }
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ff3838;
+            transform: translateX(-50%);
+            border-radius: 50%;
+        }
+            @keyframes heartbeat {
+                0%{ transform: rotate(45deg) scale(1);}
+                25%{ transform: rotate(45deg) scale(1);}
+                30%{ transform: rotate(45deg) scale(1.4);}
+                50%{ transform: rotate(45deg) scale(1.2);}
+                70%{ transform: rotate(45deg) scale(1.4);}
+                100%{ transform: rotate(45deg) scale(1);}
+            }   
+}

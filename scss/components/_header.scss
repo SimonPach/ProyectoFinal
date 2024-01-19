@@ -14,11 +14,12 @@ header {
         #logo {
             text-decoration: none;
             font-size: 2.5em;
-            text-shadow: 3px 0px 5px rgb(226, 71, 226);
+            text-shadow: 3px 1px 5px #8a2be2;
 
                 p {
                 color: rgb(0, 0, 0); 
                 margin-top: 10px; 
+                margin-bottom: 16px;
 
             }
     
@@ -38,7 +39,7 @@ header {
 
 
             &:hover {
-                color: rgba(249, 0, 249, 0.914);
+                color: #7d0aeaed;
             }
         }
 

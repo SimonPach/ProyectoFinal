@@ -1,7 +1,4 @@
-article {
-    
-    // banner Inicio
-
+        // banner Inicio //
     .banner {
         display: flex;
         justify-content: center;
@@ -19,7 +16,7 @@ article {
         background-size: cover;
         align-items: center;
         justify-content: center;
-        margin: 1em 0 1em 0;
+        // margin: 1em 0;
 
         h1 {
             margin-top: 4em;
@@ -31,12 +28,26 @@ article {
         }
     }
 
+    .bonton_index {
+        border-radius: 10%;
+        border: 5px solid rgb(0, 0, 0);
+        letter-spacing: 10px;
+        transition: all 0.5s;
+        margin-bottom: 25px;
+        
+        
+
+
+        &:hover {
+            background-color: #8a2be2;
+            color: white;
+            border: 5px solid white; 
+        }
+    }
     
 
 
-}
-
-// Pagina Banner Proyectos
+                    // Pagina Banner Proyectos//
 .banner_proyectos {
     display: flex;
     justify-content: center;
@@ -54,12 +65,12 @@ article {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    margin: 1em 0 3em 0;
+    // margin: 1em 0 3em 0;
 
     
 }
 
-// Pagina Banner Acerca de 
+                    // Pagina Banner Acerca de //
 .banner_sobre_mi {
     display: flex;
     justify-content: center;
@@ -77,6 +88,59 @@ article {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    margin: 1em 0 1em 0;
+    // margin: 1em 0 3em 0;
 
+}
+
+
+                        // Pagina Contactos //
+
+#banner_contacto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2.1rem;
+        height: 70vh;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+
+        background-image: url("../../assets/imgs/banner_contacto.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        // margin: 1em 0; 
+}
+
+                     // Pagina Agradecimientos //
+#banner_agradecimientos {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    height: 70vh;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+
+    background-image: url("../../assets/imgs/agradecimientos.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    // margin: 1em 0;
+    object-fit: cover;
+
+
+    h1 {
+        font-size: 100%;
     }
+}
