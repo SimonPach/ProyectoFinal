@@ -56,7 +56,7 @@ header nav .links_nav:hover {
 .banner {
   color: white;
   font-size: 2.1rem;
-  background-image: url("../imgs/banner_inicio.png");
+  background-image: url("../assets/imgs/banner_inicio.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -87,7 +87,7 @@ header nav .links_nav:hover {
   color: rgb(255, 255, 255);
   font-size: 2.1rem;
   margin-bottom: 50px;
-  background-image: url("../../assets/imgs/banner_proyecto.jpg");
+  background-image: url("../assets/imgs/banner_proyecto.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -99,7 +99,7 @@ header nav .links_nav:hover {
 .banner_sobre_mi {
   color: rgba(0, 0, 0, 0.951);
   font-size: 2.1rem;
-  background-image: url("../../assets/imgs/banner_sobre_mi.jpg");
+  background-image: url("../assets/imgs/banner_sobre_mi.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -112,7 +112,7 @@ header nav .links_nav:hover {
   font-style: italic;
   font-size: 2.1rem;
   margin-bottom: 50px;
-  background-image: url("../../assets/imgs/banner_contacto.jpg");
+  background-image: url("../assets/imgs/banner_contacto.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -124,7 +124,7 @@ header nav .links_nav:hover {
   color: rgb(0, 0, 0);
   font-style: italic;
   font-size: 2.8rem;
-  background-image: url("../../assets/imgs/agradecimientos.jpg");
+  background-image: url("../assets/imgs/agradecimientos.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

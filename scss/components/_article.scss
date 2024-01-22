@@ -7,7 +7,7 @@
         color: white;
         font-size: map-get($titulos-principales,tamanio);
 
-        background-image: url("../imgs/banner_inicio.png");
+        background-image: url("../assets/imgs/banner_inicio.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -51,7 +51,7 @@
     margin-bottom: 50px;
 
 
-    background-image: url("../../assets/imgs/banner_proyecto.jpg");
+    background-image: url("../assets/imgs/banner_proyecto.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -69,7 +69,7 @@
     color: rgba(0, 0, 0, 0.951);
     font-size: map-get($titulos-principales,tamanio);
 
-    background-image: url("../../assets/imgs/banner_sobre_mi.jpg");
+    background-image: url("../assets/imgs/banner_sobre_mi.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -89,7 +89,7 @@
         font-size: map-get($titulos-principales,tamanio);
         margin-bottom: 50px;
 
-        background-image: url("../../assets/imgs/banner_contacto.jpg");
+        background-image: url("../assets/imgs/banner_contacto.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -106,7 +106,7 @@
     font-style: italic;
     font-size: map-get($titulo-principal-agradecimientos,tamanio);
 
-    background-image: url("../../assets/imgs/agradecimientos.jpg");
+    background-image: url("../assets/imgs/agradecimientos.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
